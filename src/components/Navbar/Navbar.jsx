@@ -15,7 +15,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-center">
         
-        <input type="text" className="search-bar" placeholder="Search..." />
+        <input type="text" className="search-bar" placeholder="Search by tags, products..." />
         <button>
           <img src={SearchIcon} alt="Search Icon" className="search-icon" />
         </button>
