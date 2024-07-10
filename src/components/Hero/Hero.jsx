@@ -10,9 +10,6 @@ const Hero = () => {
             <p>Get the best qualities of sneakers starting from $40.00</p>
         <button>Explore more...</button>
         </div>
-        <div className="hero-banner-image">
-            <img src= {HeroImg} alt="Fashion Banner"/>
-        </div>
     </section>
   )
 }

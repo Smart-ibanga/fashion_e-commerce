@@ -1,0 +1,57 @@
+.popular-products {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.section-header h2 {
+    font-size: 1.5rem;
+}
+
+.section-header a {
+    text-decoration: none;
+    color: #ff7f50;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.product-card {
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.product-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-card p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.product-card button {
+    padding: 0.5rem 1rem;
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
