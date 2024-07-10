@@ -1,5 +1,6 @@
 import React from 'react'
 import './hero.css'
+import HeroImg from "../../assets/images/hero-image.svg"
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
         <button>Explore more...</button>
         </div>
         <div className="hero-banner-image">
-            <img src="path/to/your/image.jpg" alt="Fashion Banner"/>
+            <img src= {HeroImg} alt="Fashion Banner"/>
         </div>
     </section>
   )
