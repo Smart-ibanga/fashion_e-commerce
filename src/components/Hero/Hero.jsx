@@ -6,7 +6,12 @@ const Hero = () => {
   return (
     <section className="hero-banner">
         <div className="hero-banner-text">
-            <h1>Fashion Hub - Home of <span>Everything!</span></h1>
+            <h1>Fashion <br/>
+            Hub - Home of 
+            <br/> <span>Everything!</span></h1>
+            <br/>
+            <br />
+            <br/>
             <p>Get the best qualities of sneakers starting from $40.00</p>
         <button>Explore more...</button>
         </div>
