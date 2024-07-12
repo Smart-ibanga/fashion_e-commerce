@@ -1,27 +1,25 @@
-import { useState } from 'react'
+
 import './App.css'
-import Navbar from './components/Header/Navbar/Navbar'
-import Header from './components/Header/Navbar/Header'
-import Hero from './components/Hero/Hero'
-import PopularProducts from './components/Popular/PopularProducts'
-import BestSellers from './components/Bestsellers/BestSellers'
-import ShopByCategories from './components/ShopCategory/ShopByCategories'
-import NewArrivals from './components/NewArrival/NewArrivals'
-import DiscountedProducts from './components/Discount/DiscountedProducts'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './Pages/HomePage';
+import Header from './components/Header/Header';
+import ProductPage from './Pages/ProductPage';
+import ContactPage from './Pages/ContactPage';
+
 
 function App() {
-  return (
-    <>
-     <Header/>
-     <Navbar />
-     <Hero />
-     <PopularProducts />
-     <BestSellers />
-     <ShopByCategories />
-     <NewArrivals />
-     <DiscountedProducts />
-    </>
-  )
+    return (
+        <Router>
+            <div className="App">
+                <Header />
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/products" element={<ProductPage />} />
+                    <Route path="/contact" element={<ContactPage />} />
+                </Routes>
+            </div>
+        </Router>
+    );
 }
 
-export default App
+export default App;
