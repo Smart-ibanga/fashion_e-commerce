@@ -26,6 +26,7 @@
 }
 
 .product-card {
+    display: flex;
     background-color: #fff;
     padding: 1rem;
     text-align: center;
