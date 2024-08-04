@@ -14,7 +14,8 @@ const Popular = (props) => {
                 <button>{props.buy}</button>
             </div>
             <div className="product-price">
-                <p>{props.price}<span>{props.currency}</span></p>
+                <div className='New-price'>{props.NewPrice}</div>
+                <p className='Old-price'>{props.OldPrice}</p>
             </div>
         </div>
     </div>

@@ -12,8 +12,8 @@ const PopularProducts = () => {
                 <a href="#">See more</a>
             </div>
             <div className="product-grid">
-               <Popular img={WhiteHeels} name="White High Heels" stars="★★★★" star="★" buy="Buy Now" price="N180,000" currency="NGN" />
-               <Popular img={LowFashion} name="Low fasion dullhill" stars="★★★★" star="★" buy="Buy Now" price="N180,000" currency="NGN" />
+               <Popular img={WhiteHeels} name="White High Heels" stars="★★★★" star="★" buy="Buy Now" NewPrice="N180,000" OldPrice='N280,000' />
+               <Popular img={LowFashion} name="Low fasion dullhill" stars="★★★★" star="★" buy="Buy Now" NewPrice="N180,000" OldPrice='N280,000' />
             </div>
         </section>
     );

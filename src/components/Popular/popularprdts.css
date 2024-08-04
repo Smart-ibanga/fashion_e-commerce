@@ -1,6 +1,6 @@
 .popular-products {
     padding: 2rem;
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
 }
 
 .section-header {
@@ -29,9 +29,9 @@
 .product-card {
     background-color: #fff;
     text-align: center;
-    border-radius: 0.5%;
+    border-radius: 0.5rem;
     /* overflow: hidden; */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
 }
 
 .product-card img {
@@ -41,10 +41,10 @@
     /* margin-bottom: 0.5rem; */
 }
 
-.product-card h3 {
+/* .product-card h3 {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
-}
+} */
 
 .product-card p {
     font-size: 1rem;
@@ -57,8 +57,33 @@
     color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 0.5rem;
 }
 
 .product-details{
     display: flex;
+    justify-content: space-between;
+    margin: 0.8rem;
+}
+
+
+.product-name {
+    font-size: 1.25rem;
+    text-align: left;
+    color: #667185;
+
+}
+
+.product-price {
+    text-align: right;
+}
+
+.Old-price {
+    text-decoration: line-through;
+}
+
+.New-price {
+    
+    font-size: 1.5rem;
+    font-weight: bold;
 }
