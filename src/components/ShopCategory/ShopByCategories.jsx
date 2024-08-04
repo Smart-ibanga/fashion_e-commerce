@@ -1,5 +1,10 @@
 import React from 'react';
 import './shopCategory.css';
+import Men from "../../assets/images/menCategory.svg"
+import Women from "../../assets/images/womenCategory.svg"
+import Kids from "../../assets/images/kidsCategory.svg"
+import Gym from "../../assets/images/gymCategory.svg"
+import Shop from './Shop';
 
 const ShopByCategories = () => {
     return (
@@ -9,30 +14,10 @@ const ShopByCategories = () => {
                 <a href="#">See more</a>
             </div>
             <div className="category-grid">
-                <div className="category-card">
-                    <img src="path/to/your/image1.jpg" alt="Men" />
-                    <div className="category-info">
-                        <h3>Men</h3>
-                    </div>
-                </div>
-                <div className="category-card">
-                    <img src="path/to/your/image2.jpg" alt="Women" />
-                    <div className="category-info">
-                        <h3>Women</h3>
-                    </div>
-                </div>
-                <div className="category-card">
-                    <img src="path/to/your/image3.jpg" alt="Kids" />
-                    <div className="category-info">
-                        <h3>Kids</h3>
-                    </div>
-                </div>
-                <div className="category-card">
-                    <img src="path/to/your/image4.jpg" alt="Accessories" />
-                    <div className="category-info">
-                        <h3>Accessories</h3>
-                    </div>
-                </div>
+                <Shop img={Men} />
+                <Shop img={Women} />
+                <Shop img={Kids} />
+                <Shop img={Gym} />
             </div>
         </section>
     );

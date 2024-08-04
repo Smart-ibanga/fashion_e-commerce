@@ -3,7 +3,7 @@
     background-color: #f9f9f9;
 }
 
-.product-card {
+.discount-card {
     display: flex;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -12,19 +12,19 @@
     margin-bottom: 1rem;
 }
 
-.product-card img {
+.discount-card img {
     width: 50%;
     height: auto;
 }
 
-.product-info {
+.discount-info {
     padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.product-info h2 {
+.discount-info h2 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
@@ -34,7 +34,7 @@
     margin-bottom: 1rem;
 }
 
-.product-info p {
+.discount-info p {
     font-size: 1rem;
     margin-bottom: 1rem;
 }

@@ -19,13 +19,13 @@
     color: #ff7f50;
 }
 
-.product-grid {
+.arrival-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
 }
 
-.product-card {
+.arrival-card {
     position: relative;
     background-color: #f9f9f9;
     overflow: hidden;
@@ -33,12 +33,12 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.product-card img {
+.arrival-card img {
     width: 100%;
     height: auto;
 }
 
-.product-info {
+.arrival-info {
     position: absolute;
     bottom: 0;
     left: 0;

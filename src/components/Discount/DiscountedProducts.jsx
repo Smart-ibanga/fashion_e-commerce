@@ -4,9 +4,9 @@ import './discount.css';
 const DiscountedProducts = () => {
     return (
         <section className="discounted-products">
-            <div className="product-card">
+            <div className="discount-card">
                 <img src="path/to/your/image.jpg" alt="Fashion Low Belt Jeans" />
-                <div className="product-info">
+                <div className="discount-info">
                     <h2>Fashion Low Belt Jeans</h2>
                     <div className="rating">
                         <span>★★★★☆</span>
