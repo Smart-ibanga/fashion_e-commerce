@@ -21,7 +21,7 @@
 
 .best-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
 }
 
@@ -54,4 +54,13 @@
     color: #fff;
     border: none;
     cursor: pointer;
+}
+
+.previous-cost {
+    text-decoration: line-through;
+}
+
+.present-cost {
+    font-size: 1.5rem;
+    font-weight: bold;
 }

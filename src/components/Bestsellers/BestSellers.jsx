@@ -1,5 +1,9 @@
 import React from 'react';
-import './bestsellers.css';
+import './bestsellers.css';                                                                                                                                                                                        
+import Best from './Best';
+import Whiteheels from "../../assets/images/popularprdt1.svg"
+import LowFashion from "../../assets/images/popularprdt2.svg"
+
 
 const BestSellers = () => {
     return (
@@ -9,18 +13,14 @@ const BestSellers = () => {
                 <a href="#">See more</a>
             </div>
             <div className="best-grid">
-                <div className="best-card">
-                    <img src="path/to/your/image.jpg" alt="Product 1" />
-                    <h3>Product 1</h3>
-                    <p>N180,000 <span>N120,000</span></p>
-                    <button>Buy Now</button>
-                </div>
-                <div className="best-card">
-                    <img src="path/to/your/image.jpg" alt="Product 2" />
-                    <h3>Product 2</h3>
-                    <p>N180,000 <span></span></p>
-                    <button>Buy Now</button>
-                </div>
+                < Best img={Whiteheels} stars="★★★★" star="★" />
+                < Best img={LowFashion} stars="★★★★" star="★"/>
+                < Best img={LowFashion} stars="★★★★" star="★"/>
+                < Best img={LowFashion} stars="★★★★" star="★"/>
+                < Best img={LowFashion} stars="★★★★" star="★"/>
+                < Best img={LowFashion} stars="★★★★" star="★" />
+                < Best img={LowFashion} stars="★★★★" star="★"/>
+                < Best img={LowFashion} stars="★★★★" star="★"/>
                 {/* <!-- Repeat product-card for more products --> */}
             </div>
         </section>
