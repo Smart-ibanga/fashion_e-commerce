@@ -28,7 +28,7 @@
 .best-card {
     background-color: #fff;
     padding: 1rem;
-    text-align: center;
+    /* text-align: center; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -57,10 +57,16 @@
 }
 
 .previous-cost {
+    font-size: 0.7rem;
     text-decoration: line-through;
+    color: #888;
 }
 
 .present-cost {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
+}
+
+.total-sales {
+    font-size: 0.8rem;
 }

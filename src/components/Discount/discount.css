@@ -5,10 +5,7 @@
 
 .discount-card {
     display: flex;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    overflow: hidden;
     margin-bottom: 1rem;
 }
 
@@ -25,17 +22,18 @@
 }
 
 .discount-info h2 {
-    font-size: 1.5rem;
+    font-size: 4rem;
     margin-bottom: 0.5rem;
 }
 
-.rating {
-    color: #ff7f50;
+.rating  {
+   
     margin-bottom: 1rem;
+
 }
 
 .discount-info p {
-    font-size: 1rem;
+    font-size: 1.7rem;
     margin-bottom: 1rem;
 }
 
@@ -43,24 +41,25 @@
     display: flex;
     align-items: baseline;
     margin-bottom: 1rem;
+ 
 }
 
 .current-price {
-    font-size: 1.5rem;
+    font-size: 4rem;
     font-weight: bold;
     color: #000;
     margin-right: 0.5rem;
 }
 
 .original-price {
-    font-size: 1rem;
+    font-size: 3rem;
     text-decoration: line-through;
     color: #888;
     margin-right: 0.5rem;
 }
 
 .discount {
-    font-size: 1rem;
+    font-size: 2.5rem;
     color: #6aaf9f;
 }
 
@@ -71,9 +70,10 @@
 
 .add-to-cart,
 .shop-now {
-    padding: 0.5rem 1rem;
-    border: none;
+    padding: 2.5rem 3.5rem;
+    border-radius: 2rem;
     cursor: pointer;
+    font-size: 3rem;
 }
 
 .add-to-cart {

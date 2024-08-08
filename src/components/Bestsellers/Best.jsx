@@ -10,7 +10,11 @@ const Best = (props) => {
             {props.stars}
             <span  style={{color:"#D0D5DD", fontSize: 24}} >{props.star}</span>
         </span>
-<p className='present-cost'>N180,000 <span className='previous-cost'>N120,000</span></p>
+        <span className='total-sales'>23 sold</span>
+        <br></br>
+        <span className='present-cost'>N180,000 </span>
+        <span className='previous-cost'>N120,000</span>
+        <br></br>
         <button>Add to cart</button>
     </div>
   )
