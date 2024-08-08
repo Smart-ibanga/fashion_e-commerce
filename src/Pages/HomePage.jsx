@@ -5,6 +5,7 @@ import BestSellers from '../components/Bestsellers/BestSellers'
 import ShopByCategories from '../components/ShopCategory/ShopByCategories'
 import NewArrivals from '../components/NewArrival/NewArrivals'
 import DiscountedProducts from '../components/Discount/DiscountedProducts'
+import Hotdeals from '../components/HotDeals/Hotdeals'
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
         <ShopByCategories />
         <NewArrivals />
         <DiscountedProducts />
+        <Hotdeals />
     </div>
   )
 }

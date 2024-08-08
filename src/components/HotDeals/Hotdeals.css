@@ -1,0 +1,72 @@
+.hot-sellers {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.hot-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.hot-header h2 {
+    font-size: 1.5rem;
+}
+
+.hot-header a {
+    text-decoration: none;
+    color: #ff7f50;
+}
+
+.hot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.hot-card {
+    background-color: #fff;
+    padding: 1rem;
+    /* text-align: center; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hot-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.hot-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.hot-card p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hot-card button {
+    padding: 0.5rem 1rem;
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+ }
+
+.former-cost {
+    font-size: 0.7rem;
+    text-decoration: line-through;
+    color: #888;
+}
+
+.recent-cost {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.overall-sales {
+    font-size: 0.8rem;
+}
