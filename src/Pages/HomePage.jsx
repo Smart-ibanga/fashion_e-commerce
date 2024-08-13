@@ -6,6 +6,7 @@ import ShopByCategories from '../components/ShopCategory/ShopByCategories'
 import NewArrivals from '../components/NewArrival/NewArrivals'
 import DiscountedProducts from '../components/Discount/DiscountedProducts'
 import Hotdeals from '../components/HotDeals/Hotdeals'
+import Newsletter from '../components/Newsletter/Newsletter'
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
         <NewArrivals />
         <DiscountedProducts />
         <Hotdeals />
+        <Newsletter />
     </div>
   )
 }
