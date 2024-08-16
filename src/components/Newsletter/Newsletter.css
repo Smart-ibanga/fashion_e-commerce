@@ -28,9 +28,17 @@
 }
 
 .input-group input[type ='email'] {
-    width: 80%;
+    width: 70%;
     border: 1px solid #ddd;
     border-radius: 0.8rem;
     margin-right: 10px;
     padding: 10px;
+}
+
+.input-group button {
+    padding: 10px 20px;
+    background-color: #f04438;
+    color: #fff;
+    border-radius: 0.8rem;
+    cursor: pointer;
 }

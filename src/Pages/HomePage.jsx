@@ -7,6 +7,7 @@ import NewArrivals from '../components/NewArrival/NewArrivals'
 import DiscountedProducts from '../components/Discount/DiscountedProducts'
 import Hotdeals from '../components/HotDeals/Hotdeals'
 import Newsletter from '../components/Newsletter/Newsletter'
+import Services from '../components/Services/Services'
 
 const HomePage = () => {
   return (
@@ -19,6 +20,7 @@ const HomePage = () => {
         <DiscountedProducts />
         <Hotdeals />
         <Newsletter />
+        <Services />
     </div>
   )
 }
