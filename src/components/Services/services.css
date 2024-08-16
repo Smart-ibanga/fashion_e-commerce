@@ -11,3 +11,17 @@
     text-align: center;
     max-width: 250px;
   }
+
+  .feature img {
+    width: 50px; /* Adjust size of icons */
+    margin-bottom: 10px;
+  }
+  
+  .feature h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    color: #6c757d; /* Optional: Adjust text color for descriptions */
+  }
