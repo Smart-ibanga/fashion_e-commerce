@@ -8,6 +8,7 @@ import DiscountedProducts from '../components/Discount/DiscountedProducts'
 import Hotdeals from '../components/HotDeals/Hotdeals'
 import Newsletter from '../components/Newsletter/Newsletter'
 import Services from '../components/Services/Services'
+import Footer from '../components/Footer/Footer'
 
 const HomePage = () => {
   return (
@@ -21,6 +22,7 @@ const HomePage = () => {
         <Hotdeals />
         <Newsletter />
         <Services />
+        <Footer />
     </div>
   )
 }
