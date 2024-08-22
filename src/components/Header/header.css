@@ -1,11 +1,12 @@
 .header-logo{
-    padding: 5px  0px;
+    margin-left: 2.2rem;
+    margin-top: 2rem;
 }
 
 
 .header-logo img {
-    height: 30%;
-    overflow: hidden;
+    height: 3rem;
+   
   }
   
 .navbar {

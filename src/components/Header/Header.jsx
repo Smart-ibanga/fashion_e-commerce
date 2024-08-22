@@ -1,12 +1,12 @@
 import React from 'react'
 import './header.css'
-import fashionLogo from "../../assets/images/fashionLogo.svg"
+import footerLogo from "../../assets/images/fashionLogo1.svg"
 import SearchIcon from "../../assets/icon/search-outline.svg"
 const Header = () => {
   return (
     <header className="header">
         <div className="header-logo">
-              <img src={fashionLogo} alt="Fashion-Logo" />
+              <img src={footerLogo} alt="Fashion-Logo" />
         </div>
         <nav className="navbar">
           <div className="navbar-left">
