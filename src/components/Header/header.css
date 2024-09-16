@@ -6,7 +6,6 @@
 
 .header-logo img {
     height: 3rem;
-   
   }
   
 .navbar {
@@ -64,4 +63,96 @@ button {
   height: 24px;
   margin-left: 1.5rem;
   cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+
+      .header-logo{
+   
+       
+    }
+
+
+    .header-logo img {
+        height: 3rem;
+      }
+      
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .navbar .menu {
+      display: flex;
+      top: 0.75rem;
+      right: 0.5rem;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 2rem;
+      height: 1.2rem;
+    }
+
+  .menu span {
+      height: 0.30rem;
+      width: 90%;
+      background-color:#333;
+      border-radius: 0.2rem;
+    }
+
+    .navbar .navbar-left{
+      display: none;
+    }
+
+    .navbar-left,
+    .navbar-center,
+    .navbar-right {
+      display: flex;
+      align-items: center;
+    }
+
+
+    .navbar-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .navbar-links li {
+      display: inline;
+    }
+
+    .navbar-links a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .navbar-links a:hover {
+      color: #007BFF;
+    }
+
+    .search-bar {
+      display:none;
+    }
+
+   
+
+    button {
+      /* background-color: transparent; */
+      border: none;
+      margin: 0;
+      cursor: pointer;
+    }
+
+    .icon {
+      height: 24px;
+      margin-left: 1.5rem;
+      cursor: pointer;
+    }
+
+
 }

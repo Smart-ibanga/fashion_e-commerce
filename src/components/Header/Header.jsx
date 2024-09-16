@@ -16,6 +16,11 @@ const Header = () => {
                   <li><a href="#kids">Kids</a></li>
               </ul>
           </div>
+          <div className="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           <div className="navbar-center">
             <input type="text" className="search-bar" placeholder="Search by tags, products..." />
             <button>
